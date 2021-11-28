@@ -3,7 +3,7 @@ package colrz
 import "fmt"
 
 const (
-	fgBack = 30 + iota
+	fgBlack = 30 + iota
 	fgRed
 	fgGreen
 	fgYellow
@@ -16,7 +16,7 @@ const (
 )
 
 const (
-	FgBack    = "\033[30m"
+	FgBlack   = "\033[30m"
 	FgRed     = "\033[31m"
 	FgGreen   = "\033[32m"
 	FgYellow  = "\033[33m"
@@ -29,7 +29,7 @@ const (
 )
 
 const (
-	bgBack = 40 + iota
+	bgBlack = 40 + iota
 	bgRed
 	bgGreen
 	bgYellow
@@ -42,7 +42,7 @@ const (
 )
 
 const (
-	BgBack    = "\033[40m"
+	BgBlack   = "\033[40m"
 	BgRed     = "\033[41m"
 	BgGreen   = "\033[42m"
 	BgYellow  = "\033[43m"
@@ -54,8 +54,8 @@ const (
 	BgReset = "\033[49m"
 )
 
-func Back(s string) string {
-	return setColor(fgBack, s) + FgReset
+func Black(s string) string {
+	return setColor(fgBlack, s) + FgReset
 }
 func Red(s string) string {
 	return setColor(fgRed, s) + FgReset
@@ -84,8 +84,8 @@ func setColor(c int, s string) string {
 	return s2
 }
 
-func BackBg(s string) string {
-	return setColorBg(bgBack, s) + BgReset
+func BlackBg(s string) string {
+	return setColorBg(bgBlack, s) + BgReset
 }
 func RedBg(s string) string {
 	return setColorBg(bgRed, s) + BgReset
