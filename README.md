@@ -2,8 +2,8 @@ colrz
 ==
 
 [![GoDoc](https://godoc.org/github.com/unnamedxaer/colrz?status.svg)](https://godoc.org/github.com/unnamedxaer/colrz)
-[![Build Status](https://travis-ci.org/unnamedxaer/colrz.svg)](https://travis-ci.org/unnamedxaer/colrz)
-[![GoReportCard](https://goreportcard.com/badge/unnamedxaer/colrz)](https://goreportcard.com/report/unnamedxaer/colrz)
+[![Go Report Card](https://goreportcard.com/badge/github.com/unnamedxaer/colrz)](https://goreportcard.com/report/github.com/unnamedxaer/colrz)
+<!-- [![Build Status](https://travis-ci.org/unnamedxaer/colrz.svg)](https://travis-ci.org/unnamedxaer/colrz) -->
 
 It's a set of funcs and constants to provide basic colors to your terminal app.
 
