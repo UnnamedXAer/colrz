@@ -40,7 +40,7 @@ func main() {
 	fmt.Printf("\n%s", c.Yellow(c.MagentaBg("The tree is yellow ")+c.CyanBg(" with colorful leafs.")))
 
 	fmt.Printf("\n%s%sThe tree is %s yellow with %scolorful leafs.%s%s",
-		c.BgMagenta, c.FgYellow, c.BgCyan, c.FgBack, c.BgReset, c.FgReset)
+		c.BgMagenta, c.FgYellow, c.BgCyan, c.FgBlack, c.BgReset, c.FgReset)
 }
 ```
 
