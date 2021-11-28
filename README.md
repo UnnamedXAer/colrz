@@ -44,20 +44,20 @@ func main() {
 }
 ```
 
-![output from above code snippet](/../../../../unnamedxaer/assets/blob/main/images/example.png)
+![output from above code snippet](/../../../../unnamedxaer/assets/blob/main/images/colorz/example.png)
 
 * Use colored text
 ```go
 fmt.Print(c.Red("The tree is red."))
 ```
-![red text](https://example.com/img1.png)
+![red text](/../../../../unnamedxaer/assets/blob/main/images/colorz/red_text.png)
 
 * Use colored text on colored background
 ```go
 fmt.Printf("\n%s", c.BlueBg(c.Red("The tree is red with blue leafs.")))
 ```
 
-![red text on blue background color](/../../../../unnamedxaer/assets/blob/main/images/red_text_blue_bg.png)
+![red text on blue background color](/../../../../unnamedxaer/assets/blob/main/images/colorz/red_text_blue_bg.png)
 
 ## Persistent coloring
 
@@ -74,22 +74,22 @@ then the color will persist for the next prints.
 	fmt.Print("\nThe winter is coming, the leaves have fallen.")
 ```
 
-![persistent text color](/../../../../unnamedxaer/assets/blob/main/images/persistent_color.png)
+![persistent text color](/../../../../unnamedxaer/assets/blob/main/images/colorz/persistent_color.png)
 
 ## All colors
 
-![all colors example](/../../../../unnamedxaer/assets/blob/main/images/all_colors.png)
+![all colors example](/../../../../unnamedxaer/assets/blob/main/images/colorz/all_colors.png)
 
 ## Colors in different terminals
 
 Colors may and will vary slightly depending on the terminals.
 
-![cmder colors example](/../../../../unnamedxaer/assets/blob/main/images/example_cmder.png)
+![cmder colors example](/../../../../unnamedxaer/assets/blob/main/images/colorz/example_cmder.png)
 
 ## Warning
 Not all terminals support this features eg. windows cmd / ps < 7.0
 
-![example of terminal not supporting colors](/../../../../unnamedxaer/assets/blob/main/images/unsupported_terminal.png)
+![example of terminal not supporting colors](/../../../../unnamedxaer/assets/blob/main/images/colorz/unsupported_terminal.png)
 
 # License
 
